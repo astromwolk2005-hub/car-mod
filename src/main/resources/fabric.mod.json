@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "simplecar",
+  "version": "${version}",
+  "name": "Simple Car Mod",
+  "description": "Adds a driveable sports car to Minecraft 1.21.1!",
+  "authors": [
+    "Player"
+  ],
+  "license": "MIT",
+  "icon": "assets/simplecar/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.simplecar.SimpleCarMod"
+    ],
+    "client": [
+      "com.example.simplecar.SimpleCarClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
